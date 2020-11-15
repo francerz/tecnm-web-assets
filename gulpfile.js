@@ -31,8 +31,8 @@ gulp.task('watch:style', function() {
 });
 
 gulp.task('compile:svg', function() {
-    gulp
-        .src('./src/svg/**/*.svg', { base: './src/graphics' })
+    return gulp
+        .src('./src/svg/**/*.svg', { base: './src/svg' })
         .pipe(rename(function(file) {
             var name = file.dirname.split(path.sep);
             name.push(file.basename);
