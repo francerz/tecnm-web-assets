@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "CommonJS",
+        "target": "ES2015",
+        "allowJs": false
+    },
+    "include": ["./src/scripts/**/*.ts"]
+}
